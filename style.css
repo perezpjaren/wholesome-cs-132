@@ -1380,6 +1380,16 @@ xclip
     text-align: justify;
 }
 
+.message-box a {
+    font-size: 12px;
+    color: #5ca904;
+    margin-bottom: 10px;
+}
+
+.message-box sup {
+    color: #5ca904;
+}
+
 .message-box .lead {
     padding-top: 10px;
 	font-size: 16px;
