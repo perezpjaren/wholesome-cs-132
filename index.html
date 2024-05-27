@@ -402,7 +402,7 @@
 						<div class="post-info">
 							<h4>How has the population growth in the Philippines over the past fifty years impacted its carbon footprint?</h4>
 							<p>
-								From the line plots shown, it can be seen that there is a straight and linear increase in the Philippine population from 1974 to 2022.
+								From the line plot shown, it can be seen that there is a straight and linear increase in the Philippine population from 1974 to 2022.
 								And despite CO<sub>2</sub> emissions having increased substantially in the same amount of time, it does not rise as straightforwardly.
 								Instead, emission data shows clear dips and steep rises between years, indicating that <strong>several factors other than consistent
 								population increase may have contributed to its varying growth</strong>.
@@ -416,29 +416,38 @@
 
 			<!-- Hypothesis Testing -->
 			<div class="row">
-				<div class="col-md-6">
+				<div class="col-md-12">
 					<div class="message-box">
-						<div class="right-box-pro wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
-							<img src="uploads/overview_02.png" alt="" class="img-fluid img-rounded">
-						</div>
-					</div>
-				</div>
-				
-				<div class="col-md-6">
-					<div class="message-box">
-						<h4>Hypothesis Testing</h4>
+						<h4 align="center">Hypothesis Testing</h4>
                         <p>
-							Despite what non-believers may say – <strong>climate change IS real</strong> – and its rampant effects continue to affect the entire globe
-							in the present. The worsening climate has only caused people to question the effectiveness of current climate efforts in reducing
-							emissions. Given that the world’s population has only ever increased in number, this implies that more and more people should be able to
-							contribute to the reduction of carbon emissions – but that’s not exactly the case. So, how exactly does population correlate to
-							CO<sub>2</sub> emissions? The team will look at data from the Philippines and its neighboring countries to find out.
+							To assess which of the hypotheses to accept and reject, the tean decided to use <strong>Spearman’s Rank Correlation</strong> on the dataset.
+							To note, this method assumes that the samples are uncorrelated, corresponding to the null hypothesis. As the data includes samples from 21
+							countries including the Philippines, the team decided to apply Spearman’s rank correlation to each country accordingly. This way, the team
+							gets an overview of the dependency of carbon emissions and population data for each country, and identify a general consensus and possible
+							outliers.
+						</p>
+						
+						<br />
+
+						<p>
+							From testing, the team got an almost unanimous result of p-values close to zero. This implies that the samples being uncorrelated is very
+							unlikely, and since the majority of the correlation coefficient is close to 1, it can be said that there is a <strong>strong positive or
+							direct correlation between population and carbon emissions</strong>. Thus, the null hypothesis is rejected in favor of the alternative.
+						</p>
+
+						<br />
+
+						<p>
+							Note that all but one country actually showed a p-value close to 0.5, which is <strong>Palau</strong>. The probable statistical independence
+							between the country’s carbon emissions and population data could probably be attributed to the fact that Palau has in fact the lowest
+							population statistic in the data set. Perhaps that data characteristic also somehow implies that there are more significant factors other
+							than population that can affect carbon emissions for countries whose population are on the lower side of the spectrum.
 						</p>
                     </div>
 				</div>
             </div>
 
-			<br /><br />
+			<br />
 
 			<div class="row">
 				<div class="col-lg-12 text-center">
@@ -476,7 +485,7 @@
 								I usually make illustrations, play games, and sleep.
 							</p>
 							<ul class="social">
-								<li><a href="mailto:kamartinez@up.edu.ph" class="fa fa-envelope"></a></li>
+								<li><a href="mailto:kamartinez2@up.edu.ph" class="fa fa-envelope"></a></li>
 							</ul>
 						</div>
 					</div>
